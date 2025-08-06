@@ -14,9 +14,6 @@ Based on Cheng et al.’s “Wide & Deep Learning for Recommender Systems” (Go
   * anime-dataset-2023.csv
   * users-details-2023.csv
   * users-score-2023.csv
-* **models/**
-
-  * wide\_and\_deep\_model.pth — saved PyTorch weights (optional)
 
 ---
 
@@ -84,7 +81,7 @@ Based on Cheng et al.’s “Wide & Deep Learning for Recommender Systems” (Go
   3. Backpropagate & update both sets of weights
 * **Validation**
   Compute RMSE on the held-out test set
-* **Typical Results**
+* ** Results**
 
   * Train RMSE ≈ 1.50
   * Test  RMSE ≈ 1.70
